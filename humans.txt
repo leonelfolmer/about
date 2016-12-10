@@ -1,0 +1,8 @@
+  Site: http://www.leonelfolmer.com	
+  Location: Curitiba - Brasil
+
+  Web Developer: Leonel Folmer
+  
+  Standards: *HTML5, CSS3
+  Components: jQuery
+
