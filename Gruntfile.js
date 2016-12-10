@@ -19,7 +19,7 @@ module.exports = function (grunt) {
   // Configurable paths
   var config = {
     source_about: 'source_about',
-    dist: 'about'
+    dist: 'docs'
   };
 
   // Define the configuration for all the tasks
