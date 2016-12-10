@@ -59,7 +59,7 @@ module.exports = function(grunt) {
           expand: true,
           dot: true,
           cwd: 'source_about',
-          src: ['*.{ico,txt,md,json,xml}', '.*', '**'],
+          src: ['*.{ico,txt,md,json,xml}', '.*'],
           dest: 'docs'
         }]
       }
