@@ -459,7 +459,7 @@ a:hover {
   border-radius:3px;
   background-position:center center;
   background-size:cover;
-  background-image:url("https://raw.githubusercontent.com/leonelfolmer/about/master/docs/images/2942b2be.photo.jpg");
+  background-image:url(../images/photo.jpg);
   background-repeat:no-repeat;
 }
 
