@@ -1,2 +1,2 @@
 # Personal Info & Privacy
- Leonel Folmer basic info.
+ Leonel Folmer basic info. 
