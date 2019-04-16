@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       build: {
         files: [{
             expand: true,
-            cwd: 'source_about/js',
+            cwd: 'source/js',
             src: 'main.js',
             dest: 'docs/js',
             ext: '.min.js'
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
       target: {
         files: [{
           expand: true,
-          cwd: 'source_about/styles/',
+          cwd: 'source/styles/',
           src: ['main.css'],
           dest: 'docs/styles',
           ext: '.min.css'
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'source_about/',
+          cwd: 'source/',
           src: '{,*/}*.html',
           dest: 'docs/'
         }]
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'source_about/images',
+          cwd: 'source/images',
           src: '{,*/}*.{gif,jpeg,jpg,png}',
           dest: 'docs/images'
         }]
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           dot: true,
-          cwd: 'source_about',
+          cwd: 'source',
           src: ['*.{ico,txt,md,json,xml}', '.*'],
           dest: 'docs'
         }]
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
     
     // ...
   });
- 
+  
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
