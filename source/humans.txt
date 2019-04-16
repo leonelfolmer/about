@@ -1,0 +1,8 @@
+  Site: http://www.leonelfolmer.com	
+  Location: Setúbal - Portugal
+
+  Web Developer: Leonel Folmer
+  
+  Standards: *HTML5, CSS3
+  Components: jQuery
+
