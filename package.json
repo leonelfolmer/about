@@ -9,4 +9,4 @@
     "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1"
   }
-} 
+}
