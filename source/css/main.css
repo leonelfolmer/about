@@ -9,13 +9,13 @@
 }
 
 p {
-	font-family: Nunito;
+	font-family: 'Rubik', sans-serif;
 	font-size: 1.4em;
 	font-weight: 400;
 }
 
 h1, h2, h3 {
-	font-family: Nunito;
+	font-family: 'Rubik', sans-serif;
 }
 
 blockquote > small {

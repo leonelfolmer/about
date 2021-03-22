@@ -396,7 +396,7 @@ dd {
 
 blockquote{
   font-size: 1.4em;
-  font-family:Nunito;
+  font-family: 'Rubik', sans-serif;
   margin:25px auto;
   font-style:italic;
   color: #555555;
@@ -407,7 +407,7 @@ blockquote{
 }
 
 blockquote::before{
-  font-family:Nunito;
+  font-family: 'Rubik', sans-serif;
   content: "\201C";
   color:#CCCCCC;
   font-size:4em;
