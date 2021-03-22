@@ -1,2 +1,2 @@
 # Personal Info & Privacy
- Leonel Folmer basic info. 
+ // basic info. 
