@@ -1,2 +1,2 @@
 # Personal Info & Privacy
- // basic info. 
+ Basic info: leonelfolmer.com
