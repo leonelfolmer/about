@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'source/js',
             src: 'main.js',
-            dest: 'pub/js',
+            dest: 'docs/js',
             ext: '.min.js'
         }]
       }
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'source/css/',
           src: ['main.css', 'bootstrap.css', 'bootstrap-grid.css', 'bootstrap-reboot.css'],
-          dest: 'pub/css',
+          dest: 'docs/css',
           ext: '.min.css'
         }]
       }
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'source/',
           src: '{,*/}*.html',
-          dest: 'pub/'
+          dest: 'docs/'
         }]
       }
     },
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'source/images',
           src: '{,*/}*.{gif,jpeg,jpg,png}',
-          dest: 'pub/images'
+          dest: 'docs/images'
         }]
       }
     },
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
           dot: true,
           cwd: 'source',
           src: ['*.{ico,txt,md,json,xml}', '.*'],
-          dest: 'pub'
+          dest: 'docs'
         }]
       }
     }
